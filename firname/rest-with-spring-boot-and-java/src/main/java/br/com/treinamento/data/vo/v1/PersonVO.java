@@ -7,6 +7,7 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 
+//@JsonPropertyOrder({"id","address","lastName","firnname", "genter"})
 public class PersonVO implements Serializable{
   
 	private static final long serialVersionUID = 1L;
